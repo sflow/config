@@ -1,6 +1,6 @@
 # Cisco ASR 9K
 
-NOTE: {{{show install active summary}}} should indicate a {{{netflow-xr}}} package installed.
+NOTE: ```show install active summary``` should indicate a ```netflow-xr``` package installed.
 
 ```
 hw-module profile netflow sflow-enable location 0/0/CPU0

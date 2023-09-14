@@ -1,6 +1,6 @@
 # Cisco NCS 5500
 
-NOTE: Requires {{{xr-netflow}}} package to be installed. See {{{show install active summary}}}.
+NOTE: Requires ```xr-netflow``` package to be installed. See ```show install active summary```.
 NOTE: Switching from NetFlow/IPFIX to sFlow may require a full reboot.
 
 ```
