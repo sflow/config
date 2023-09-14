@@ -4,8 +4,8 @@
 ```
 sflow sample 10000
 sflow polling-interval 20
-sflow destination IPADDR
-sflow source-interface Loopback0
+sflow destination COLLECTOR
+sflow source-interface <loopback-interface>
 sflow run
 sflow extension bgp
 ```
