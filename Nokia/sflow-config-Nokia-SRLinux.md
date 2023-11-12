@@ -24,4 +24,5 @@ interface ethernet-1/1 {
     }
 }
 ```
-
+## Comments
+* Sending sFlow out of management interface may not be allowed.
