@@ -2,8 +2,8 @@
 
 https://github.com/sflow/vpp-sflow
 
-The sFlow plugin to VPP is expected to run only on Linux in conjuntion with the
-VPP linux-cp plugin and the hsflowd daemon from https://sflow.net.
+The sFlow plugin to VPP is expected to run on Linux in conjunction with the
+VPP **linux-cp** plugin and the **hsflowd** daemon from https://sflow.net.
 
 Prerequistite, load Netlink PSAMPLE kernel module:
 ```
@@ -28,6 +28,7 @@ sudo vppctl sflow enable GigabitEthernet0/a/0
 ...
 sudo vppctl sflow sampling-rate 1000
 sudo vppcl sflow polling-interval 20
+sudo vppcl sflow headerbytes 128
 
 sudo vppctl show sflow
 ```
